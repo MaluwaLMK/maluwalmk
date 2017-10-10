@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "Maluwa LMK"
 title_separator          : "-"
 name                     : "Lawrence Kondowe"
-description              : "An amazing website."
+description              : "Analysis from my wandering brain"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -78,10 +78,10 @@ analytics:
 # Site Author
 author:
   name             : "Lawrence Kondowe"
-  avatar           : /assets/images/maluwalmk-logo.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/maluwalmk_logo.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Master student of machine learning."
   location         : "United States"
-  email            : "rivergold@126.com"
+  email            : 
   uri              :
   bitbucket        :
   codepen          :
@@ -89,7 +89,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : rivergold
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
