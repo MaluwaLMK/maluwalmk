@@ -21,5 +21,5 @@ Profile/short CV
 Other:
 
 - I like to play football (soccer) at my free time
-- I miss swimming in Lake Malawi (Check out [](http://www.majizuwa.com) if you want to experience some good food and swimming in Lake Malawi)
+- I miss swimming in Lake Malawi (Check out [Maji Zuwa](http://www.majizuwa.com) if you want to experience some good food and swimming in Lake Malawi)
 - Please, also support [Determined To Develop](http://determinedtodevelop.org) - A non-profit organization that aims to lift the people of Malawi through assistance that benefits the following causes: Education, Women’s Empowerment, Orphans, Hunger, Adult Literacy, The effects of the HIV / AIDS epidemic, The effects of malaria and other diseases, Small Business (SME) Development (Micro-Credit).
