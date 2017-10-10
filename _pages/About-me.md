@@ -2,28 +2,24 @@
 layout: single
 permalink: /pages/About
 title: About
-subtitle: A man loves freedom, machine learning and data mining.
-excerpt: "_Stay Hungry, Stay Foolish.<br> A learning route of computer vision and machine learning._"
+subtitle: _Analytics, Statistics, Statistical Programming, Economics and Fun!_
+excerpt: 
 header:
-  overlay_image: /assets/images/home-head.jpg
+  overlay_image: /assets/images/maluwalmk_logo.jpg
 ---
 
-<p align="justify">
-I'm Kevin Ho, a researcher of machine learning and data mining. Most of my work is about huamn activity recognition and relevant ML algorithm. Now, I am studying at University of Electronic Science and Technology of China, Chendu, China.
-<br><br>
-Windfall is a blog to record my learng curve of computer vision and machine learning. Why it's called <i>Windfall</i>? It means that keep doing and one day you will get what you want, just like the squashy fruits fallen off trees.
-<!-- I am also a fan of kaggle data mining competition and have finished the Titanic and digit recognition competition. It is challenging but interesting! -->
-</p>
+I have a great passion for statistics, economics, and analytics. In this blog I share anything I discover and find interesting in the area of statistics and data analysis. I post some R codes that I find useful to share. I use R programming language almost every single day and my passion for the language has grown significantly since I started learning it about fours ago. I also write a bit about about Africa and its progress toward development. I will also post interesting stats I find across the web including sports.
 
-Be myself, do what I like and enjoy life.
+Please feel free to contribute or comment on the blog. Below is my short profile.
 
-Gratefull thanks to my parents and friends for their love and supports, and my girlfriend Kelly for coming up with a name for this blog.
+Profile/short CV
 
-<!-- - I rock a great mustache
-- I'm extremely loyal to my family
+- Master of Financial Mathematics  |  University of Dayton  |  Dayton, Ohio , USA  |  2013-present
+- Graduate Coursework in Economics  |  NC State University  | Raleigh, NC, USA  |  2012-2013
+- BA Economics  |  University of Dayton  |  Dayton, OH, USA  |  2008-2012
 
-What else do you need?
+Other:
 
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions. -->
+- I like to play football (soccer) at my free time
+- I miss swimming in Lake Malawi (Check out http://www.majizuwa.com if you want to experience some good food and swimming in Lake Malawi)
+- Please, also support Determined To Develop (http://determinedtodevelop.org) - A non-profit organization that aims to lift the people of Malawi through assistance that benefits the following causes: Education, Women’s Empowerment, Orphans, Hunger, Adult Literacy, The effects of the HIV / AIDS epidemic, The effects of malaria and other diseases, Small Business (SME) Development (Micro-Credit).
