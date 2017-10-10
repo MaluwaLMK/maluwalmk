@@ -14,9 +14,9 @@ Please feel free to contribute or comment on the blog. Below is my short profile
 
 Profile/short CV
 - Quantitative Risk Analyst at The AES Corporation
-- Master of Financial Mathematics  |  University of Dayton  |  Dayton, Ohio , USA  |  2013-present
-- Graduate Coursework in Economics  |  NC State University  | Raleigh, NC, USA  |  2012-2013
-- BA Economics  |  University of Dayton  |  Dayton, OH, USA  |  2008-2012
+- Master of Financial Mathematics  -  University of Dayton  - Dayton, Ohio , USA  -  2013-2015
+- Graduate Coursework in Economics  -  NC State University  - Raleigh, NC, USA  -  2012-2013
+- BA Economics  -  University of Dayton  -  Dayton, OH, USA  -  2008-2012
 
 Other:
 
