@@ -20,3 +20,38 @@ scaleEigen <- function(fit){
  return(eigenValues)
 }
 ```
+
+For example, using cars data from the R dataset package we can extract eigenvalues and eigenvectors of a \textbf{X'X} matrix which can be used to assess multicollinearity of regressors in a linear regression.
+
+```r
+data(cars)
+cars.lm <- lm(dist ~ speed, data = cars)
+summary(cars.lm)
+ 
+# Extract the eigenvalues and eigenvectors from cars.lm using
+# the function scaleEign above
+scaleEigen(cars.lm)
+```
+
+This produces the eigenvalues and their associated eigenvectors of a class “list” as shown in the R output below.
+
+```
+$values
+[1]    1.94680083          0.05319917
+
+$vectors
+[,1]                            [,2]
+[1,]  -0.7071068          0.7071068
+[2,]  -0.7071068        -0.7071068
+```
+
+You can also assign the output to a an object and access the values using the dollar sign as below:
+
+```r
+eigenV <- scaleEigen(cars.lm) 
+eigenV$values  # Eigenvalues
+eigenV$vectors  # Eigenvectors
+```
+
+In a regression analysis, if there is one or more small eigenvalues of the \textbf{X'X}, matrix it implies there are near-linear relationships (dependencies) among regressors and we may have multicollinearity issues in the analysis.
+
