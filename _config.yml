@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Windfall"
+title                    : "Maluwa LMK"
 title_separator          : "-"
-name                     : "Kevin Ho"
+name                     : "Lawrence Kondowe"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -77,10 +77,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Kevin Ho"
-  avatar           : /assets/images/bio-photo.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Lawrence Kondowe"
+  avatar           : /assets/images/maluwalmk-logo.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Master student of machine learning."
-  location         : "Chengdu, China"
+  location         : "United States"
   email            : "rivergold@126.com"
   uri              :
   bitbucket        :
