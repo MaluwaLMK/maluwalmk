@@ -2,12 +2,12 @@
 main:
   - title: "Articles"
     url: /pages/articles
-  - title: "Github"
-    url: https://github.com/rivergold/
+  # - title: "Github"
+  #  url: https://github.com/rivergold/
   - title: "About"
     url: /pages/About
-  - title: "Lab"
-    url: http://uestcrobot.net/
+  # - title: "Lab"
+  # url: http://uestcrobot.net/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
