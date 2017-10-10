@@ -3,7 +3,7 @@ layout: archive
 permalink: /pages/articles
 title: "Articles"
 author_profile: true
-excerpt: "_Analytics, Statistics, Statistical Programming, Economics and Fun._"
+excerpt: "_Analytics, Statistics, Statistical Programming, Economics and Fun!_"
 header:
   overlay_image: /assets/images/network-viz.jpg
 ---
