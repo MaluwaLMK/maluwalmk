@@ -8,17 +8,18 @@ header:
   overlay_image: /assets/images/network-viz.jpg
 ---
 
-I have a great passion for statistics, economics, and analytics. In this blog I share anything I discover and find interesting in the area of statistics and data analysis. I post some R codes that I find useful to share. I use R programming language almost every single day and my passion for the language has grown significantly since I started learning it about fours ago. I also write a bit about about Africa and its progress toward development. I will also post interesting stats I find across the web including sports.
+## Intro
+I have a great passion for statistics, economics, and analytics. In this blog I share anything I discover and find interesting in the area of statistics and data analysis. I post some R codes that I find useful to share. I use R programming language almost every single day and my passion for the language has grown significantly since I started learning during my undergraduate. I also write a bit about Africa and its progress toward development. I will also post interesting stats I find across the web including sports.
 
 Please feel free to contribute or comment on the blog. Below is my short profile.
 
-Profile/short CV
+## Profile/short CV
 - Quantitative Risk Analyst at The AES Corporation
 - Master of Financial Mathematics  -  University of Dayton  - Dayton, Ohio , USA  -  2013-2015
 - Graduate Coursework in Economics  -  NC State University  - Raleigh, NC, USA  -  2012-2013
 - BA Economics  -  University of Dayton  -  Dayton, OH, USA  -  2008-2012
 
-Other:
+## Other interests
 
 - I like to play football (soccer) at my free time
 - I miss swimming in Lake Malawi (Check out [Maji Zuwa](http://www.majizuwa.com) if you want to experience some good food and swimming in Lake Malawi)
