@@ -1,6 +1,6 @@
 ---
-title: The Simplest Monte Carlosimulation (Coin Betting Game)
+title: The Simplest Monte Carlo Simulation (Coin Betting Game)
 
 ---
 
-Suppose we are playing a game in which a player receives $1 if a coint toss is head and loses $1 if the coin toss is tails.I will denote the loss as -$1. The player would like to know his or her winning or losses after a certain number of trials. For each trial, we sample 1 or -1 then sum the outcomes across the total trials to get the final win.
+Suppose we are playing a game in which a player receives \$1 if a coint toss is head and loses \$1 if the coin toss is tails.I will denote the loss as -$1. The player would like to know his or her winning or losses after a certain number of trials. For each trial, we sample 1 or -1 then sum the outcomes across the total trials to get the final win.
