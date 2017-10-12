@@ -9,7 +9,7 @@
 locale                   : "en"
 title                    : "MaluwaLMK"
 title_separator          : "-"
-name                     : "MaluwaLMK
+name                     : "MaluwaLMK"
 description              : "Analytics, Statistics, Statistical Programming, Economics and Fun!"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
