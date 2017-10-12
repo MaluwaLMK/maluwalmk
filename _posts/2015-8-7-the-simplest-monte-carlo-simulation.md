@@ -32,7 +32,7 @@ for (i in 1:4) {
 }
 ```
 
-img
+![image](/assets/images/bet.png){height="50%" width="50%"}
 
 Now would like to know generate a table to display our overal winnings if we run the function bet 100 times and determine what are the most likes wins. Then we can plot the distribution of the winnings. **Notice**: The distributions will change each time you run the code.
 
