@@ -32,3 +32,17 @@ for (i in 1:4) {
 }
 ```
 
+img
+
+Now would like to know generate a table to display our overal winnings if we run the function bet 100 times and determine what are the most likes wins. Then we can plot the distribution of the winnings. **Notice**: The distributions will change each time you run the code.
+
+```r
+win.rep <- replicate(100, bet())
+table(win.rep)
+```
+
+```
+## win.rep
+## -20 -18 -14 -12 -10  -8  -6  -4  -2   0   2   4   6   8  10  12 
+##   1   2   1   3   2   4  10  14  12   8  10  11   6  10   3   3
+```
