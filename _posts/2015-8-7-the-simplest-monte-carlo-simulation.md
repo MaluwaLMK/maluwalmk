@@ -46,3 +46,11 @@ table(win.rep)
 ## -20 -18 -14 -12 -10  -8  -6  -4  -2   0   2   4   6   8  10  12 
 ##   1   2   1   3   2   4  10  14  12   8  10  11   6  10   3   3
 ```
+```r
+barplot(table(win.rep), col = "cornflowerblue", las = 1) # Notice the color name
+```
+
+![](/assets/images//bethist.png)
+
+## Shiny App
+I wanted to create an interactive app that lets users play around with this simulation game to see how they fair in their betting. So I created an app which you can find [here](https://maluwalmk.shinyapps.io/betting_game){target="_blank"}.
