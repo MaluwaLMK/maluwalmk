@@ -1,4 +1,5 @@
-The function below extracts the eigenvalues and an eigenvector from a linear regression model. I wrote this function so that the eigenvalues and vectors are the same as those reported by the SAS PROC REG procedure when using the COLLIN option.
+The function below extracts the eigenvalues and an eigenvector from a linear regression model. I wrote this function so that the eigenvalues and vectors are the same as those reported by the SAS `PROC REG` procedure when using the `COLLIN` option.
+
 ```r
 scaleEigen <- function(fit){
  # Calculate the eigenvalues and eigenvectors
@@ -21,7 +22,7 @@ scaleEigen <- function(fit){
 }
 ```
 
-For example, using cars data from the R dataset package we can extract eigenvalues and eigenvectors of a \textbf{X'X} matrix which can be used to assess multicollinearity of regressors in a linear regression.
+For example, using cars data from the R dataset package we can extract eigenvalues and eigenvectors of a *X\'X* matrix which can be used to assess multicollinearity of regressors in a linear regression.
 
 ```r
 data(cars)
