@@ -1,0 +1,117 @@
+{
+  "basics": {
+    "name": "Lawrence Kondowe",
+    "label": "Quantitative Risk Analyst",
+    "picture": "",
+    "email": "",
+    "phone": "",
+    "website": "maluwalmk.com",
+    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Dayton",
+      "countryCode": "US",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "maluwalmk",
+        "url": ""
+      },
+      {
+        "network": "google plus",
+        "username": "lawrencekondowe",
+        "url": ""
+      },
+      {
+        "network": "linkedin",
+        "username": "lawrencekondowe",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "AES Corporation",
+      "position": "Quantitative Risk Analyst",
+      "website": "www.aes.com",
+      "startDate": "2013-12-01",
+      "endDate": "2014-12-01",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Determined To Develop",
+      "position": "Board Member",
+      "website": "http://determinedtodevelop.org",
+      "startDate": "2016-06-01",
+      "endDate": "",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": [
+        "Awarded 'Teacher of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Dayton",
+      "area": "Financial Mathematics",
+      "studyType": "Masters",
+      "startDate": "2013-08",
+      "endDate": "2015-06",
+      "gpa": "",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Graduate Assistantship",
+      "date": "2014-11-01",
+      "awarder": "University of Dayton Department of Mathematics",
+      "summary": ""
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "R",
+        "Statistics",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ]
+    }
+  ],
+  "languages": [],
+  "interests": [
+    {
+      "name": "Data Analysis",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": []
+}
