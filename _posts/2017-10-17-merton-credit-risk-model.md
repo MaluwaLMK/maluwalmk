@@ -128,7 +128,9 @@ autoplot(zoo(pathMatrix), facets = NULL) +
   )
 ```
 
-<center> ![d](/assets/images/gbm-sims.png) </center>
+<center> 
+  ![d](/assets/images/gbm-sims.png) 
+</center>
 
 I model a distribution of the value of the asset at maturity $T$ by simulating a number of paths.  
 
