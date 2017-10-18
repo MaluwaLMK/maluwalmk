@@ -2,7 +2,7 @@
 title: Credit Risk Using the Merton Model
 ---
 
-### Introduction
+## Introduction
 
 The Merton model is one of the most popular structural models of default. It models the equity of a firm as a European call option on its asset with the value of liabilities as the strike price. We use the option pricing mechanism in which firms asset is the underlying for the option. Under the Merton model the firm defaults when the market value of its assets fall below a given level (total liability). 
 
@@ -11,15 +11,19 @@ The model assumes that the asset value, $A_t$, follows a Geometric Brownian moti
 $$
 dA_t=\mu A_tdt + \sigma A_t dW_t,
 $$
+
 where $\mu$ is the mean rate of return in the asset and $\sigma$ is its volatility and $(W_t)_{t>0}$ is a Brownian motion.
 
 After a little bit of calculus we can get
+
 $$
 A_T = A_0\exp\left\{\left(\mu-\frac{1}{2}\sigma^2\right)T+\sigma W_T\right\},
 $$
+
 which is the evolution of the asset value.
 
 Many large and mid-cap firms are financed by equity and debt. Assume that the firm's financed by one outstanding debt obligation of face value $K$ with maturity $T$ and one equity $E$. The value of the the firm is therefore given by
+
 $$
 A_0 = E_0 + K_0.
 $$
@@ -27,6 +31,7 @@ $$
 Here $(E_t)_{t\geq 0}$ also follows a GMB, describing the evolution of the equity. $(K_t)_{t\geq 0}$ is a stochastic process describing the market value of the firm's debt obligation.
 
 We assess the riskiness of the firm from the debt holders' point of view. Credit risk arises when the 
+
 $$
 P(A_T<F)>0.
 $$
@@ -43,7 +48,7 @@ We now have two cases:
 ****
 
 
-### Equity Value and Probability of Default
+## Equity Value and Probability of Default
 
 From the two cases above, the payoff to the shareholders at maturity $T$ is given by
 $$
@@ -67,6 +72,7 @@ d_2 = d_1 - \sigma\sqrt{T}.
 $$
 
 One nice property of the Black-Scholes model is that the risk-neutral probability of a exercising a call option at $T$ is $N(d_2)$. Hence, the probability of not exercising  the call option is $N(-d_2)$, which means that the value of debt liability $K$ is greater than the value of assets $A$. This is a firms default as mentioned earlier. In the Merton model, the probability of default is 
+
 $$
 \begin{aligned}
 PD &= P(A_T\leq K)\\
@@ -77,9 +83,9 @@ $$
 
 See more at <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1974.tb03058.x/pdf" target="_blank">Merton Model (1974)</a>.
 
-### Implementation in R
+## Implementation in R
 
-#### Simulating GBM Paths
+### Simulating GBM Paths
 I simulate sample paths of an equity which follows a GBM. To make my life easier, I use the R package `sde` to simulate the stochastic differential equation. 
 ```r
 library(sde)
@@ -171,7 +177,7 @@ BSM(t = 1, A0 = 100, K = 85, r = 0.05, sigma = 0.20)
 ```
 
 
-#### Additional Information: Computing the Greeks:
+### Additional Information: Computing the Greeks:
 
 There are quantities that describe derivative risk sensitivities. They represent the sensitivity value of an option to changes in underlying parameters. I won't go into detail explaining what each one of them means. Consult <a href="http://www.springer.com/us/book/9780387401010" target="_blank">Stochastic Calculus for Finance II by Shreve</a>.
 
