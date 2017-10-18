@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Credit Risk Using the Merton Model
 ---
 
