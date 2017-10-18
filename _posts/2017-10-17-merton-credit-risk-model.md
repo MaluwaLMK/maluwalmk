@@ -51,22 +51,28 @@ We now have two cases:
 ## Equity Value and Probability of Default
 
 From the two cases above, the payoff to the shareholders at maturity $T$ is given by
+
 $$
 E_T = \max\{A_T - K, 0\}.
 $$
  
 The equation can be viewed as a European call option on the firm's asset with strike price $K$ equal to the face value of the debt obligation.
 
-The debt holders, on the other hand, receive $\min\{A_T,K\}$.
+The debt holders, on the other hand, receive $\min\\{A_T,K\\}$.
 We can now use the Black-Scholes formula to find the current equity (call) price
+
 $$
 E_0 = A_0N(d_1)-Ke^{-rT}N(d_2),
 $$
+
 where
+
 $$
 d_1 = \frac{\ln\left(\frac{A_0}{K}\right)+\left(r+1/2\sigma^2\right)T}{\sigma \sqrt{T}},
 $$
+
 and
+
 $$
 d_2 = d_1 - \sigma\sqrt{T}.
 $$
