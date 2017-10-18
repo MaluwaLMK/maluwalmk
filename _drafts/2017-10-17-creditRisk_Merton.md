@@ -82,7 +82,7 @@ See more at <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1974
 
 #### Simulating GBM Paths
 I simulate sample paths of an equity which follows a GBM. To make my life easier, I use the R package `sde` to simulate the stochastic differential equation. 
-```{r, warning=FALSE, message=FALSE, fig.align='center', fig.cap='GBM Sample Path'}
+```r
 suppressMessages({
   library(sde)
   library(ggplot2)
@@ -116,13 +116,11 @@ autoplot(zoo(pathMatrix), facets = NULL) +
     axis.line.x = element_line(linetype = "dashed"),
     panel.grid.minor.y = element_line(colour = "grey70", linetype = "dotted")
   )
-
-
 ```
 
 I model a distribution of the value of the asset at maturity $T$ by simulating a number of paths.  
 
-```{r, warning=FALSE, message=FALSE, fig.align='center'}
+```r
 
 # Asset value at maturity
 asst.Mty <- pathMatrix[nrow(pathMatrix), ]  # collect the asset values from each path
@@ -146,7 +144,7 @@ The area to the left of the vertical line, $K=85$, is the probability of default
 
 First, I write a function `BSM` to price the call option using the Black-Scholes model.
 
-```{r, warning=FALSE, message=FALSE, fig.align='center'}
+```r
 
 BSM <- function(t, A0, K, r, sigma){
   # Computes the price of a call option using Black-Schole model and
@@ -180,8 +178,7 @@ BSM(t = 1, A0 = 100, K = 85, r = 0.05, sigma = 0.20)
 There are quantities that describe derivative risk sensitivities. They represent the sensitivity value of an option to changes in underlying parameters. I won't go into detail explaining what each one of them means. Consult <a href="http://www.springer.com/us/book/9780387401010" target="_blank">Stochastic Calculus for Finance II by Shreve</a>.
 
 
-```{r, warning=FALSE, message=FALSE, fig.align='center'}
-
+```r
 BSMGreeks <- function(t, A0, K, r, sigma){
   d1 <-  (log(A0 / K) + (r + sigma^2 / 2) * t) / (sigma * sqrt(t))
   d2 <-  d1 - sigma * sqrt(t)
