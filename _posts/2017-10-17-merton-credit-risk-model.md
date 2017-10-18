@@ -28,7 +28,7 @@ $$
 A_0 = E_0 + K_0.
 $$
 
-Here $(E_t)_{t \geq 0}$ also follows a GMB, describing the evolution of the equity. $(K_t)_{t\geq 0}$ is a stochastic process describing the market value of the firm's debt obligation.
+Here $(E_{t})_{t \geq 0}$ also follows a GMB, describing the evolution of the equity. $(K_t)_{t\geq 0}$ is a stochastic process describing the market value of the firm's debt obligation.
 
 We assess the riskiness of the firm from the debt holders' point of view. Credit risk arises when the 
 
