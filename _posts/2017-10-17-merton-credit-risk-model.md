@@ -1,5 +1,6 @@
 ---
 title: Credit Risk Using the Merton Model
+excerpt: "The Merton model is one of the most popular structural models of default. It models the equity of a firm as a European call option on its asset with the value of liabilities as the strike price. We use the option pricing mechanism in which firms asset is the underlying for the option. Under the Merton model the firm defaults when the market value of its assets fall below a given level (total liability)"
 image:
   thumbnail: /assets/images/gbm-sims.png #keep it square 200x200 px is good
 ---
