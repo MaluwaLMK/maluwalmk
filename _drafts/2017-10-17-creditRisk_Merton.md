@@ -1,14 +1,17 @@
+---
+layout: post
+title: Credit Risk Using the Merton Model
+---
 
 ### Introduction
 
 The Merton model is one of the most popular structural models of default. It models the equity of a firm as a European call option on its asset with the value of liabilities as the strike price. We use the option pricing mechanism in which firms asset is the underlying for the option. Under the Merton model the firm defaults when the market value of its assets fall below a given level (total liability). 
 
-The model assumes that the asset value, $$A_t$$, follows a Geometric Brownian motion (GBM)
+The model assumes that the asset value, $A_t$, follows a Geometric Brownian motion (GBM)
 
 $$
 dA_t=\mu A_tdt + \sigma A_t dW_t,
 $$
-
 where $\mu$ is the mean rate of return in the asset and $\sigma$ is its volatility and $(W_t)_{t>0}$ is a Brownian motion.
 
 After a little bit of calculus we can get
@@ -79,8 +82,7 @@ See more at <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1974
 
 #### Simulating GBM Paths
 I simulate sample paths of an equity which follows a GBM. To make my life easier, I use the R package `sde` to simulate the stochastic differential equation. 
-
-```r
+```{r, warning=FALSE, message=FALSE, fig.align='center', fig.cap='GBM Sample Path'}
 suppressMessages({
   library(sde)
   library(ggplot2)
@@ -110,35 +112,42 @@ autoplot(zoo(pathMatrix), facets = NULL) +
   theme_fivethirtyeight() +
   labs(title = "Simulated asset price paths") +
   theme(
-    legend.position = "none"
+    legend.position = "none",
+    axis.line.x = element_line(linetype = "dashed"),
+    panel.grid.minor.y = element_line(colour = "grey70", linetype = "dotted")
   )
-```
 
-<div class="figure" style="text-align: center">
-<img src="creditRisk_Merton_files/figure-html/unnamed-chunk-1-1.png" alt="GBM Sample Path"  />
-<p class="caption">GBM Sample Path</p>
-</div>
+
+```
 
 I model a distribution of the value of the asset at maturity $T$ by simulating a number of paths.  
 
+```{r, warning=FALSE, message=FALSE, fig.align='center'}
 
-```r
 # Asset value at maturity
 asst.Mty <- pathMatrix[nrow(pathMatrix), ]  # collect the asset values from each path
 
-par(las = 1, family = "serif")
-plot(density(asst.Mty), lwd = 2, xlab = "Asset Value", 
-     main = "Probability Density of Asset value at Maturity", col = "blue3")
-abline(v = 85)
+ggplot(data = as.data.frame(asst.Mty), aes(asst.Mty)) +
+  geom_density(colour = "#276c8e", size = 0.8) +
+  theme_fivethirtyeight() +
+  scale_x_continuous(limits = c(50, 200)) +
+  labs(title = "Probability Density of Asset value at Maturity",
+       x = "Asset Value") +
+  theme(
+    axis.title = element_text()
+  )
+  
+  
+
+
 ```
 
-<img src="creditRisk_Merton_files/figure-html/unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
 The area to the left of the vertical line, $K=85$, is the probability of default. Default occurs when the asset value at maturity falls below 85. Under the Merton model that probability is precisely $N(-d_2)$ which I compute below. 
 
 First, I write a function `BSM` to price the call option using the Black-Scholes model.
 
+```{r, warning=FALSE, message=FALSE, fig.align='center'}
 
-```r
 BSM <- function(t, A0, K, r, sigma){
   # Computes the price of a call option using Black-Schole model and
   # Probability of default for the Merton Model.
@@ -152,23 +161,18 @@ BSM <- function(t, A0, K, r, sigma){
   #
   # Returns:
   #   Call option price.
-  d1 = (log(A0/K) + (r + sigma^2/2)*t) / (sigma*sqrt(t))
-  d2 = d1-sigma*sqrt(t)
-  ET <- A0*pnorm(d1) - K*exp(-r*t)*pnorm(d2)
+  d1 <-  (log(A0 / K) + (r + sigma^2 / 2) * t) / (sigma * sqrt(t))
+  d2 <-  d1 - sigma * sqrt(t)
+  ET <- A0 * pnorm(d1) - K * exp(-r * t) * pnorm(d2)
   cbind(
     call.price = ET,
     prob.default = pnorm(-d2)
   )
 }
 
-BSM(t = 1, A0=100, K=85, r=0.05, sigma=0.20)
-```
+BSM(t = 1, A0 = 100, K = 85, r = 0.05, sigma = 0.20)
 
 ```
-##      call.price prob.default
-## [1,]   20.46929    0.1678755
-```
-
 
 
 #### Additional Information: Computing the Greeks:
@@ -176,30 +180,26 @@ BSM(t = 1, A0=100, K=85, r=0.05, sigma=0.20)
 There are quantities that describe derivative risk sensitivities. They represent the sensitivity value of an option to changes in underlying parameters. I won't go into detail explaining what each one of them means. Consult <a href="http://www.springer.com/us/book/9780387401010" target="_blank">Stochastic Calculus for Finance II by Shreve</a>.
 
 
+```{r, warning=FALSE, message=FALSE, fig.align='center'}
 
-```r
 BSMGreeks <- function(t, A0, K, r, sigma){
-  d1 <-  (log(A0/K) + (r + sigma^2/2)*t) / (sigma*sqrt(t))
-  d2 <-  d1-sigma*sqrt(t)
+  d1 <-  (log(A0 / K) + (r + sigma^2 / 2) * t) / (sigma * sqrt(t))
+  d2 <-  d1 - sigma * sqrt(t)
   
   cbind(
     delta =  pnorm(d1),
-    theta =  (-r*K*exp(-r*t*pnorm(d2))) - sigma*A0*dnorm(d1)/(2*sqrt(t)),
-    gamma =  dnorm(d1)/(sigma*A0*sqrt(t)),
-    vega  =  A0*sqrt(t)*dnorm(d1),
-    rho   =  t*K*exp(-r*t)*pnorm(d2)
-  )
+    theta =  (-r * K * exp(-r * t * pnorm(d2))) - sigma * A0 * dnorm(d1) / (2 * sqrt(t)),
+    gamma =  dnorm(d1) / (sigma * A0 * sqrt(t)),
+    vega  =  A0 * sqrt(t) * dnorm(d1),
+    rho   =  t * K * exp(-r * t) * pnorm(d2)
+    )
 }
 
-print(BSMGreeks(t=1, A0=100, K=85, r=0.05, sigma=0.20), digits = 3)
+print(BSMGreeks(t = 1, A0 = 100, K = 85, r = 0.05, sigma = 0.20), digits = 3)
 ```
 
-```
-##      delta theta  gamma vega  rho
-## [1,] 0.878 -6.11 0.0101 20.3 67.3
-```
+**Note:**
 
-**Note:** \
 - This was just an outline of of the Merton's corporate credit risk model. I have not discussed the shortcomings of the model. There are a number of extensions to this model which is a subject for another blog post.
 - Other concepts associated with this model include distance-to-default, interest rate process, expected default frequency (EDF) and sensitivity analysis.
 
