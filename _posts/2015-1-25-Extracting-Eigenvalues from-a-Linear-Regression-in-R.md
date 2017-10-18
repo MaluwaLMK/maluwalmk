@@ -22,7 +22,7 @@ scaleEigen <- function(fit){
 }
 ```
 
-For example, using cars data from the R dataset package we can extract eigenvalues and eigenvectors of a *X\'X* matrix which can be used to assess multicollinearity of regressors in a linear regression.
+For example, using cars data from the R dataset package we can extract eigenvalues and eigenvectors of a **X\'X** matrix which can be used to assess multicollinearity of regressors in a linear regression.
 
 ```r
 data(cars)
@@ -34,7 +34,7 @@ summary(cars.lm)
 scaleEigen(cars.lm)
 ```
 
-This produces the eigenvalues and their associated eigenvectors of a class “list” as shown in the R output below.
+This produces the eigenvalues and their associated eigenvectors of a class `list` as shown in the R output below.
 
 ```
 $values
@@ -54,5 +54,5 @@ eigenV$values  # Eigenvalues
 eigenV$vectors  # Eigenvectors
 ```
 
-In a regression analysis, if there is one or more small eigenvalues of the \textbf{X'X}, matrix it implies there are near-linear relationships (dependencies) among regressors and we may have multicollinearity issues in the analysis.
+In a regression analysis, if there is one or more small eigenvalues of the **X\'X**, matrix it implies there are near-linear relationships (dependencies) among regressors and we may have multicollinearity issues in the analysis.
 
