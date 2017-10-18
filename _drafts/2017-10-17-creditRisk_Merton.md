@@ -43,9 +43,9 @@ We now have two cases:
 
 ****
 
-<center>
+
 ### Equity Value and Probability of Default
-</center>
+
 From the two cases above, the payoff to the shareholders at maturity $T$ is given by
 $$
 E_T = \max\{A_T - K, 0\}.
@@ -83,10 +83,9 @@ See more at <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1974
 #### Simulating GBM Paths
 I simulate sample paths of an equity which follows a GBM. To make my life easier, I use the R package `sde` to simulate the stochastic differential equation. 
 ```r
-suppressMessages({
-  library(sde)
-  library(ggplot2)
-  library(ggthemes)})
+library(sde)
+library(ggplot2)
+library(ggthemes)
 
 # GBM Parameters
 N = 364  # Number of days in a year minus day 1
