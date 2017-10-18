@@ -3,11 +3,12 @@
 
 The Merton model is one of the most popular structural models of default. It models the equity of a firm as a European call option on its asset with the value of liabilities as the strike price. We use the option pricing mechanism in which firms asset is the underlying for the option. Under the Merton model the firm defaults when the market value of its assets fall below a given level (total liability). 
 
-The model assumes that the asset value, $A_t$, follows a Geometric Brownian motion (GBM)
+The model assumes that the asset value, $$A_t$$, follows a Geometric Brownian motion (GBM)
 
 $$
 dA_t=\mu A_tdt + \sigma A_t dW_t,
 $$
+
 where $\mu$ is the mean rate of return in the asset and $\sigma$ is its volatility and $(W_t)_{t>0}$ is a Brownian motion.
 
 After a little bit of calculus we can get
