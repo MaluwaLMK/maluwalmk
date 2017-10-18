@@ -1,5 +1,7 @@
 ---
 title: Credit Risk Using the Merton Model
+image:
+  thumb: /assets/images/gbm-sims.png #keep it square 200x200 px is good
 ---
 
 ## Introduction
