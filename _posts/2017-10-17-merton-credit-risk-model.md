@@ -128,7 +128,7 @@ autoplot(zoo(pathMatrix), facets = NULL) +
   )
 ```
 
-->![d](/assets/images/gbm-sims.png)<-
+<center> ![d](/assets/images/gbm-sims.png) </center>
 
 I model a distribution of the value of the asset at maturity $T$ by simulating a number of paths.  
 
@@ -150,7 +150,7 @@ ggplot(data = as.data.frame(asst.Mty), aes(asst.Mty)) +
 
 ```
 
-->![](/assets/images/merton-density.png <-
+<center>![](/assets/images/merton-density.png </center>
 
 
 The area to the left of the vertical line, $K=85$, is the probability of default. Default occurs when the asset value at maturity falls below 85. Under the Merton model that probability is precisely $N(-d_2)$ which I compute below. 
