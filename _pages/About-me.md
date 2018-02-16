@@ -12,7 +12,7 @@ header:
 
 
 ## Intro
-<p>   <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="lawrencekondowe" style="margin-right: 20px"><a class="LI-simple-link" href='https://www.linkedin.com/in/lawrencekondowe?trk=profile-badge'>Lawrence Kondowe</a></div>  I have a great passion for statistics, economics, and analytics. This blog is a playground for sharing some of my expert knowledge as well as anything I discover and find interesting in the area of statistics, quantitive finance and data analysis. </p>
+<p>   <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="lawrencekondowe" style="margin-right: 20px"><a class="LI-simple-link" href='https://www.linkedin.com/in/lawrencekondowe?trk=profile-badge'>Lawrence Kondowe</a></div>  I have a great passion for statistics, economics, and analytics. This blog is a playground for sharing some of my expert knowledge as well as anything I discover and find interesting in the area of statistics, quantitative finance and data analysis. </p>
 
 Please feel free to contribute or comment on the blog. Below is my short profile.
 
