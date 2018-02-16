@@ -25,6 +25,9 @@
     width: 50%;
 }
 
+.LI-profile-badge {
+    float: right;
+}
 
 .page {
   @include breakpoint($large) {
