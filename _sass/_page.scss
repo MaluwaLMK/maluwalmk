@@ -18,6 +18,14 @@
   }
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
 .page {
   @include breakpoint($large) {
     @include span(10 of 12 last);
