@@ -9,8 +9,6 @@ header:
 ---
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
-<img src="/assets/images/Kondowe Lawrence2.jpg" alt="Lawrence Kondowe" height="300" width="300" align="middle" class="center">
-
 <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="lawrencekondowe"><a class="LI-simple-link" href='https://www.linkedin.com/in/lawrencekondowe?trk=profile-badge'>Lawrence Kondowe</a></div>
 
 ## Intro
