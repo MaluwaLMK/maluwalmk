@@ -10,6 +10,8 @@ header:
 
 <img src="/assets/images/Kondowe Lawrence2.jpg" alt="Lawrence Kondowe" height="300" width="300" align="middle" class="center">
 
+<div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="lawrencekondowe"><a class="LI-simple-link" href='https://www.linkedin.com/in/lawrencekondowe?trk=profile-badge'>Lawrence Kondowe</a></div>
+
 ## Intro
 I have a great passion for statistics, economics, and analytics. In this blog I share anything I discover and find interesting in the area of statistics and data analysis. I post some R codes that I find useful to share. I use R programming language almost every single day and my passion for the language has grown significantly since I started learning during my undergraduate. I also write a bit about Africa and its progress toward development. I will also post interesting stats I find across the web including sports.
 
