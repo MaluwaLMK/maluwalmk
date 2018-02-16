@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/network-viz.jpg
 ---
 
-<img src="potrait.jpg" alt="Lawrence Kondowe" style="width:500px;height:600px;">
+<img src="Kondowe Lawrence_hi_res.jpg" alt="Lawrence Kondowe" style="width:500px;height:600px;">
 
 ## Intro
 I have a great passion for statistics, economics, and analytics. In this blog I share anything I discover and find interesting in the area of statistics and data analysis. I post some R codes that I find useful to share. I use R programming language almost every single day and my passion for the language has grown significantly since I started learning during my undergraduate. I also write a bit about Africa and its progress toward development. I will also post interesting stats I find across the web including sports.
