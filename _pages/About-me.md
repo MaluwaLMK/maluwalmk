@@ -7,6 +7,7 @@ excerpt:
 header:
   overlay_image: /assets/images/network-viz.jpg
 ---
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
 <img src="/assets/images/Kondowe Lawrence2.jpg" alt="Lawrence Kondowe" height="300" width="300" align="middle" class="center">
 
