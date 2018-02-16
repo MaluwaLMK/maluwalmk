@@ -12,7 +12,7 @@ header:
 
 
 ## Intro
-<p>   <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="lawrencekondowe" style="margin-right: 20px"><a class="LI-simple-link" href='https://www.linkedin.com/in/lawrencekondowe?trk=profile-badge'>Lawrence Kondowe</a></div>  I have a great passion for statistics, economics, and analytics. In this blog I share anything I discover and find interesting in the area of statistics and data analysis. I post some R codes that I find useful to share. I use R programming language almost every single day and my passion for the language has grown significantly since I started learning during my undergraduate. I also write a bit about Africa and its progress toward development. I will also post interesting stats I find across the web including sports.</p>
+<p>   <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="lawrencekondowe" style="margin-right: 20px"><a class="LI-simple-link" href='https://www.linkedin.com/in/lawrencekondowe?trk=profile-badge'>Lawrence Kondowe</a></div>  I have a great passion for statistics, economics, and analytics. This blog is a playground for sharing some of my expert knowledge as well as anything I discover and find interesting in the area of statistics, quantitive finance and data analysis. </p>
 
 Please feel free to contribute or comment on the blog. Below is my short profile.
 
@@ -24,6 +24,6 @@ Please feel free to contribute or comment on the blog. Below is my short profile
 
 ## Other interests
 
-- I like to play football (soccer) at my free time
-- I miss swimming in Lake Malawi (Check out [Maji Zuwa](http://www.majizuwa.com){:target="_blank"} if you want to experience some good food and swimming in Lake Malawi)
-- Please, also support [Determined To Develop](http://determinedtodevelop.org){:target="_blank"} - A non-profit organization that aims to lift the people of Malawi through assistance that benefits the following causes: Education, Women’s Empowerment, Orphans, Hunger, Adult Literacy, The effects of the HIV / AIDS epidemic, The effects of malaria and other diseases, Small Business (SME) Development (Micro-Credit).
+- I like to play football (soccer) at my free tim. My current team is The Dayton Rogues FC which is part of the Southern Ohio Soccer association.
+- For holidays I visit my home country, Malawi, to swimming in the beautiful Lake Malawi (Check out [Maji Zuwa](http://www.majizuwa.com){:target="_blank"} if you want to experience some good food and swimming in Lake Malawi)
+- I also serve on the board of [Determined To Develop](http://determinedtodevelop.org){:target="_blank"} with a mission "To empower the people of Malawi, Africa to implement sustainable, community-driven solutions that promote human advancement."
