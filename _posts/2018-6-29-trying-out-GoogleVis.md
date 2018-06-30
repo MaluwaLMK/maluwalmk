@@ -1,4 +1,4 @@
-# American Sport Season Timeline
+## Major Sports League Season Timeline
 
 
 ```r
