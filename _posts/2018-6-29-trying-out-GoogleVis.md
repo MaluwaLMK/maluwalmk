@@ -143,8 +143,3 @@ callbacks.shift()();
   style="width: automatic; height: 350;">
 </div>
 
-```r
-cat("http://maluwalmk.com")
-```
-
-http://maluwalmk.com
