@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : "maluwalmk"
+  username               : # "maluwalmk"
 facebook:
   username               :
   app_id                 :
@@ -90,17 +90,17 @@ author:
   facebook         :
   foursquare       :
   github           : 
-  google_plus      : "lawrencekondowe"
+  google_plus      : # "lawrencekondowe"
   keybase          :
   instagram        :
   lastfm           :
   linkedin         : "lawrencekondowe"
   pinterest        :
-  soundcloud       :
+  soundcloud       : "chi_square"
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : "maluwalmk"
+  twitter          : #"maluwalmk"
   vine             :
   weibo            :
   xing             :
