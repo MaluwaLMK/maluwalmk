@@ -226,6 +226,14 @@
           </a>
         </li>
       {% endif %}
+      
+      {% if author.mixcloud %}
+        <li>
+          <a href="https://mixcloud.com/{{ author.mixcloud }}" itemprop="sameAs">
+            <i class="fa fa-fw fa-mixcloud" aria-hidden="true"></i> Mixcloud
+          </a>
+        </li>
+      {% endif %}
 
       {% if author.vine %}
         <li>
